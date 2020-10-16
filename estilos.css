@@ -1,13 +1,6 @@
 body {
-    /* background-size: 100%; */
-
-    background: rgb(2,0,36);
-    background: linear-gradient(188deg, rgba(2,0,36,1) 0%, rgba(9,121,114,0.6474964985994398) 61%, rgba(0,212,255,1) 100%);
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-/* background-image:url(./images/pexels-pixabay-462030.jpg);
-background-repeat: no-repeat; */
-
 }
 
 .project {
@@ -15,41 +8,33 @@ background-repeat: no-repeat; */
     border-radius: 10px;
     margin-bottom: 15px;
     padding:20px;
-    /* margin:10px; */
     background:white ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    }
+}
     
-    .project-title{
+.project-title{
     font-size: 30px;
     margin-bottom: 10px;
-    margin-top: 0;
-    
-    }
-    .project-course,
-    .project-course,
-    .project-url{
-        margin: 10px 0;
-    
-    }
-    
-    .project-description{
-        font-size: 20px;
-    }
+    margin-top: 0;   
+}
 
-    .project strong{
-
-        font-family: 'Fjalla One', sans-serif;
-    }
+.project-course,
+.project-course,
+.project-url{
+    margin: 10px 0;
+}
     
-    /* .project-date{
-        margin: 10px 0;
-    
-    } */
+.project-description{
+    font-size: 20px;
+}
 
+.project strong{
+
+    font-family: 'Fjalla One', sans-serif;
+}
 
 h1,
 h2,
@@ -59,25 +44,19 @@ h5,
 h6 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-    
 }
 
 h1 {
-
     font-family: 'Fjalla One', sans-serif;
     line-height: 1.5em;
     font-size: 30px;
     letter-spacing: -.2px;
     margin: 0px;
     color: white;
-
-    
 }
 
 .project-details {
-
     width: 50%;
-
 }
 
 .project-imageContainer {
@@ -85,15 +64,10 @@ h1 {
 }
 
 .project-imageContainer img{
-
     max-width: 100%;
 }
 .hero {
     height: 300px;
-    /* background-image:url('./images/flamas.jpg') ; */
-    /* background-size: 500px 300px; */
-    /* background-repeat: no-repeat; */
-    /* background-position-x: right; */
     background-color: #1b2127;
     display: flex;
     align-items: center;
@@ -105,7 +79,6 @@ h1 {
 .hero-image{
     object-fit: cover;
 }
-
 
 h1 strong{
     color: #0086B0;
@@ -125,8 +98,6 @@ h2{
     justify-content: space-between;
     height: 70px;
     align-items: center;
-    flex-wrap: wrap;
-
 }
 
 .menu{
@@ -134,7 +105,6 @@ h2{
 }
 
 .header ol{
-
     display: flex;
     height: inherit;
 }
@@ -149,13 +119,16 @@ h2{
     height: inherit;
     display: flex;
     align-items: center;
-    padding: 0 10;
+    padding: 0 10px;
 }
 
+.header a:hover {
+    color:#0086b0;
+}
 
 .portfolio { 
-    
-padding: 20px;
+    background: #fafafa;
+    padding: 20px;
 }
 
 head{
@@ -163,14 +136,13 @@ head{
 }
 
 .flexbox {
-
     display:flex;
     flex-wrap: wrap;
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     border: 1px solid red;
     flex-shrink: 0;
 }
@@ -192,7 +164,7 @@ figure{
     background-color: #1b2127;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer img{
@@ -208,8 +180,8 @@ figure{
     
 }
 .event{
-    margin: 1%;
-    width: 48%;
+    margin: 10px;
+    width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;
@@ -253,15 +225,8 @@ figure{
     background-color: #056fff;
     color:white;
     height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.social{
-    border: 1px solid red;
+    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .social-link{
@@ -296,20 +261,18 @@ figure{
 }
 
 .form-email input{
-
-border-color: gray;
-border-style: solid;
-border-radius: 5px;
-padding: 10px 20px 10px 25px;
-background-image: url();
-background-size: 15px 15px;
-background-repeat: no-repeat;
-background-position-y: center;
-background-position-x: 5px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url();
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
 }
 
 .form-email button{
-
     display: block;
     background:transparent;
     color:white;
@@ -321,13 +284,11 @@ background-position-x: 5px;
 }
 
 .form-email h3{
-font-family: 'Source Sans Pro', sans-serif;
-    
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .container{
     max-width: 1000px;
-    /* width: 100%; */
     flex: 1;
     margin:0 auto;
     display:inherit;
@@ -335,9 +296,7 @@ font-family: 'Source Sans Pro', sans-serif;
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
-
-
-    }
+}
 
 .burger-button{
     width: 40px;
@@ -352,44 +311,38 @@ font-family: 'Source Sans Pro', sans-serif;
     left:5px;
     top:5px;
     color:white;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 @media screen and(max-width:1024px){
+    .cotainer{
+        padding: 0 1em;
+    }
+    .hero{
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding:2em;
+    }
+    h1{
+        font-size:2em;
+        z-index: 2;
+        
+    }
+    .hero-image{
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
 
-.cotainer{
-    padding: 0 1em;
-}
-.hero{
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    padding:2em;
-}
-h1{
-    font-size:2em;
-    z-index: 2;
-    
-}
-.hero-image{
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-
-}
-
+    }
 }
 
 
 
 
 @media screen and (max-width:767px){
-
    .burger-button{
        display: block;
    }
@@ -473,11 +426,6 @@ h1{
         margin: .4em 0;
     }
  
-    .body
-    {
-        border: 10px solid red;
-    }
- 
     .event{
         width: auto;  
     flex-shrink: initial;  }
@@ -487,6 +435,38 @@ h1{
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 1023px) {
+    .event-list-title {
+        margin-left: 0;
+    }
+    .portfolio {
+        padding: 0;
+    }
+    .container {
+        padding: 0 1em;
+    }
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        z-index: 2;
+        text-shadow: 1px 1px 4px rgb(110 115 115);
+    }
 }
 
 @media screen and(max-width:480px){
@@ -504,12 +484,10 @@ h1{
 
     }
     .contact{
-
         height: auto;
         padding: 1.5em 0;
         text-align: center;
         display: block;
-
     }
     .form-email button{
         margin: 1em auto;
@@ -523,49 +501,44 @@ h1{
         padding:1px;
     }
 
+}
+
+@media screen and(max-width:480px){
+    h1{
+        font-size: 1.2em;
+        
     }
-
-    @media screen and(max-width:480px){
-        h1{
-            font-size: 1.2em;
-           
-        }
-        .hero{
-
-            padding: 2em 1em;
-
-        }
-
+    .hero{
+        padding: 2em 1em;
     }
+}
 
-    @font-face {
-        font-family: 'icomoon';
-        src:  url('../fonts/icomoon.eot?e448yi');
-        src:  url('../fonts/icomoon.eot?e448yi#iefix') format('embedded-opentype'),
-          url('../fonts/icomoon.ttf?e448yi') format('truetype'),
-          url('../fonts/icomoon.woff?e448yi') format('woff'),
-          url('../fonts/icomoon.svg?e448yi#icomoon') format('svg');
-        font-weight: normal;
-        font-style: normal;
-        font-display: block;
-      }
+@font-face {
+    font-family: 'icomoon';
+    src:  url('./fonts/icomoon.eot?e448yi');
+    src:  url('./fonts/icomoon.eot?e448yi#iefix') format('embedded-opentype'),
+        url('./fonts/icomoon.ttf?e448yi') format('truetype'),
+        url('./fonts/icomoon.woff?e448yi') format('woff'),
+        url('./fonts/icomoon.svg?e448yi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
-      [class^="icon-"], [class*=" icon-"] {
-        /* use !important to prevent issues with browser extensions that change fonts */
-        font-family: 'icomoon' !important;
-        speak: never;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        text-transform: none;
-        line-height: 1;
-      
-        /* Better Font Rendering =========== */
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-      
-      .icon-menu:before {
-        content: "\e900";
-      }
-      
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2.3;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e900";
+}
